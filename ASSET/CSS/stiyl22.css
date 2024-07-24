@@ -1,0 +1,193 @@
+ /* font */
+.font-num{
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Raleway Dots', cursive;
+}
+
+body{
+    font-family: "Raleway", sans-serif;
+}
+.form-control:focus{
+    box-shadow: none;
+    border-color: #bb2d3b;
+}
+
+.text-dark-blue{
+    color: #0f2f57;
+}
+.text-blue-dark{
+    color: #123a6d;
+}
+.my-line{
+    width: 120px!important;
+    height: 0.5px!important;
+}
+.bg-dark-blue{
+    background-color:#071527;
+}
+.bg-dark-blue-box{
+    background-color:#05101e;
+}
+/* start header */
+.img-had{
+background:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)) , url(../img/slide-1.jpg);
+min-height: 100vh; 
+background-repeat: no-repeat;
+}
+ /* end header */
+
+ /* start video */
+ .bg-vidi{
+    background-image: url(../img/why-us.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 50vh;
+ }
+ .text-hover:hover{
+    color: rgb(238, 105, 9);
+ }
+
+
+ 
+ /* end video */
+
+ /* start SERVICES */
+ .SER-icon-box{
+    width: 60px;
+    height: 60px;
+    box-shadow: -8px -8px rgba(218, 7, 7, 0.644);
+    transition-duration: 0.5s!important;
+ }
+
+ .SERVICES-item:hover{
+    background-color: #bb2d3b!important;
+    color: rgb(255, 255, 255)!important;
+ }
+.SERVICES-item{
+    transition-duration: 0.5s!important;
+}
+ .SERVICES-item:hover .SER-icon-box{
+    background-color: white!important;
+    color:#bb2d3b!important;
+    box-shadow: -8px -8px rgba(233, 91, 91, 0.397);
+ }
+ /* end SERVICES */
+
+ /* start Testimonials */
+.membr-img{
+    top: 20px;
+    left: -40px;
+}
+.mt-btn-cros{
+    background-color: #ffffff!important;
+    width: 12px!important;
+    height: 12px!important;
+    border-radius: 50%!important;
+    border: 1px solid red!important;
+}
+.mt-btn-cros.active{
+    background-color: #bb2d3b!important;
+}
+.carousel-indicators{
+    bottom: -50px;
+}
+ /* endTestimonials */
+
+/* start portfolio */
+
+.portfolio-info{
+    top: 100%;
+    background-color: rgba(255, 255, 255, 0.678);
+    transition-duration: 0.4s;
+}
+.box-right{
+    margin-right: 180px;
+}
+.portfolio-item:hover .portfolio-info{
+top: 75%;
+}
+/* end portfolio */
+
+/* start team */
+.team-hover1{
+top: 0;
+left: -18%;
+height: 100%;
+width: 18%;
+background-color: rgba(11, 35, 65, 0.651);
+z-index: 100;
+transition-duration: 0.4s;
+}
+.team-hover2{
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(transparent , rgba(11, 35, 65, 0.8) );
+    transition-duration: 0.4s;
+}
+.team-item:hover .team-hover1{
+    left: 0;
+}
+
+.team-item:hover .team-hover2{
+    top: 0;
+}
+.team-item:hover img{
+    transform: scale(1.1);
+}
+.team-item img{
+    transition-duration: 0.4s;
+}
+/* end team */
+
+/* start CONTACT */
+.CONTACT-icon{
+    width: 50px;
+    height: 50px;
+    border: 2px dashed red;
+    border-radius: 50%;
+}
+/* end CONTACT */
+
+/* start footer */
+.footer-icon-box{
+    width:30px ;
+    height: 30px;
+    display: block;
+}
+
+.footer-icon-box:hover{
+    background-color: #bb2d3b;
+}
+.footer-box-top{
+    border-top: 4px solid #bb2d3b;
+}
+/* end footer */
+
+
+/* rispansive */
+
+/* // Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {  }
+
+/* // Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) { 
+    .bg-vidi{
+        min-height: 300px;
+    }
+ }
+
+/* /// X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {  }
+
+
+
+
+
+
+/* // XX-Large devices (larger desktops) */
+/* // No media query since the xxl breakpoint has no upper bound on its width */
